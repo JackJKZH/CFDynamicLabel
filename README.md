@@ -8,6 +8,9 @@
 ### 思路
 ### (1)创建一个view 作为所有内容的父控件, 并且添加到上面一个 label, 作为显示文字的载体
 
+
+
+
     UILabel* contentLabel = [[UILabel alloc] init];
     [contentLabel sizeToFit];
    contentLabel.backgroundColor = [UIColor clearColor];
